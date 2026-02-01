@@ -1,0 +1,4 @@
+first_name,last_name,dob,email_address,ignored_column
+  alice  ,smith,2023/01/01,Alice@Example.com,data1
+bob,JONES  ,1995/10/31,,data2
+  CHARLIE,brown,1988/06/15,charlie@web.com,data3

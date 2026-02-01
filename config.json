@@ -1,0 +1,8 @@
+{
+  "mappings": [
+    {"source": "first_name", "alias": "FirstName", "transform": ["trim", "uppercase"]},
+    {"source": "last_name", "alias": "LastName", "transform": ["trim", "uppercase"]},
+    {"source": "dob", "alias": "BirthDate", "transform": ["fix_date"]},
+    {"source": "email_address", "alias": "Email", "transform": ["trim", "null_to_blank"]}
+  ]
+}
